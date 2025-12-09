@@ -1,0 +1,20 @@
+# Modern Python 3.10+ Compatible Requirements
+# Last Updated: 2025-12-09
+# Target Python: 3.10+ | Optimized for Windows (latest stable versions)
+
+# Data Science & ML Stack
+numpy>=2.1.0             # Numerical computing - latest available
+pandas>=2.0.0            # Data manipulation - modern version
+matplotlib>=3.7.0        # Plotting library - stable version
+scipy>=1.11.0            # Scientific computing - stable version
+
+# Web Framework Stack
+fastapi>=0.100.0         # Modern async web framework
+uvicorn>=0.20.0          # ASGI server
+pydantic>=2.4.0          # Data validation
+
+# Testing & Development
+pytest>=7.4.0            # Testing framework
+pytest-asyncio>=0.21.0   # Pytest async support
+pytest-html>=4.1.0       # HTML test reports
+packaging>=23.0          # Version parsing utilities

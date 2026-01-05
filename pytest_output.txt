@@ -1,0 +1,34 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0 -- E:\Bug Bash\12_9\Claude-haiku-4.5\venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.11', 'Platform': 'Windows-11-10.0.26200-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.12.0', 'asyncio': '1.3.0', 'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\Program Files\\Java\\jdk-24'}
+rootdir: E:\Bug Bash\12_9\Claude-haiku-4.5
+plugins: anyio-4.12.0, asyncio-1.3.0, html-4.1.1, metadata-3.1.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 23 items
+
+tests/test_runtime.py::TestDependencyImports::test_numpy_import PASSED   [  4%]
+tests/test_runtime.py::TestDependencyImports::test_pandas_import PASSED  [  8%]
+tests/test_runtime.py::TestDependencyImports::test_scipy_import PASSED   [ 13%]
+tests/test_runtime.py::TestDependencyImports::test_matplotlib_import PASSED [ 17%]
+tests/test_runtime.py::TestDependencyImports::test_fastapi_import PASSED [ 21%]
+tests/test_runtime.py::TestDependencyImports::test_uvicorn_import PASSED [ 26%]
+tests/test_runtime.py::TestDependencyImports::test_pydantic_import PASSED [ 30%]
+tests/test_runtime.py::TestNumpyFunctionality::test_numpy_array_creation PASSED [ 34%]
+tests/test_runtime.py::TestNumpyFunctionality::test_numpy_linear_algebra PASSED [ 39%]
+tests/test_runtime.py::TestNumpyFunctionality::test_numpy_random PASSED  [ 43%]
+tests/test_runtime.py::TestPandasFunctionality::test_dataframe_creation PASSED [ 47%]
+tests/test_runtime.py::TestPandasFunctionality::test_dataframe_groupby PASSED [ 52%]
+tests/test_runtime.py::TestPandasFunctionality::test_dataframe_filtering PASSED [ 56%]
+tests/test_runtime.py::TestSciPyFunctionality::test_scipy_optimize PASSED [ 60%]
+tests/test_runtime.py::TestSciPyFunctionality::test_scipy_stats PASSED   [ 65%]
+tests/test_runtime.py::TestMatplotlibFunctionality::test_matplotlib_import_backend PASSED [ 69%]
+tests/test_runtime.py::TestMatplotlibFunctionality::test_matplotlib_plotting PASSED [ 73%]
+tests/test_runtime.py::TestFastAPIFunctionality::test_fastapi_app_creation PASSED [ 78%]
+tests/test_runtime.py::TestFastAPIFunctionality::test_fastapi_route_decorator PASSED [ 82%]
+tests/test_runtime.py::TestFastAPIFunctionality::test_pydantic_basemodel PASSED [ 86%]
+tests/test_runtime.py::TestPytestIntegration::test_pytest_version PASSED [ 91%]
+tests/test_runtime.py::TestPytestIntegration::test_pytest_fixtures PASSED [ 95%]
+tests/test_runtime.py::TestPythonVersion::test_python_version_minimum PASSED [100%]
+
+============================= 23 passed in 2.56s ==============================

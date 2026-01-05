@@ -1,0 +1,11 @@
+# Updated and pinned dependencies for Python 3.10+
+# Reproducible environment: all packages pinned to exact versions
+numpy==1.26.3
+pandas==2.2.3
+scikit-learn==1.3.2
+scipy==1.11.2
+matplotlib==3.8.1
+pytest==8.3.2
+fastapi==0.95.2
+uvicorn==0.22.0
+requests==2.31.0
